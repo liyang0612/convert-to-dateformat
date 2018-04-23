@@ -11,7 +11,8 @@ $ npm i --save convert-to-dateformat
 
 ```js
 var convertToDateFormat = require('convert-to-dateformat');
+//时间戳
 var timeStamp = Date.parse(new Date());
-console.log(convertToDateFormat(timeStamp));
+console.log(convertToDateFormat(timeStamp, '-'));
 // =>  '2018-04-22 14:16:16'
 ```
